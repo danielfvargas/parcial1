@@ -1,0 +1,84 @@
+.store-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .menu-logo {
+    width: 200px;
+    height: 200px;
+    margin: 0 10px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #2a5a56;
+  }
+  
+  .carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .carousel-image {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  
+  .carousel-button {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #2a5a56;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+  }
+  
+  .carousel-button:first-child {
+    left: 10px;
+  }
+  
+  .carousel-button:last-child {
+    right: 10px;
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .menu-item-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item p {
+    font-size: 1.2rem;
+    color: #2a5a56;
+  }
+  

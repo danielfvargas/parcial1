@@ -1,0 +1,39 @@
+.home-container {
+    background-image: url('https://media.istockphoto.com/id/1829241109/es/foto/disfrutando-de-un-brunch-juntos.jpg?s=612x612&w=0&k=20&c=KU7sOAud1luKJ6i1IouLIDgutwNOp7dK9NlFBOe-KL4=');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.menu-container {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 800px;
+    position: relative;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img {
+    width: 200px;
+    height: 200px;
+}
+
+.icon p {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #000;
+}
