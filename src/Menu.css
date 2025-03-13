@@ -14,7 +14,7 @@
   }
   
   .menu-logo {
-    width: 50px;  /* Ajusta el tamaño del logo */
+    width: 50px;
     height: 50px;
     margin: 0 10px;
   }
@@ -32,7 +32,7 @@
   }
   
   .carousel-image {
-    width: 300px; /* Ajusta el tamaño de la imagen */
+    width: 300px;
     height: 200px;
     border-radius: 10px;
   }
@@ -57,7 +57,6 @@
     right: 10px;
   }
   
-  /* Estilos para las imágenes y títulos debajo del carrusel */
   .menu-items {
     display: flex;
     justify-content: space-around;
