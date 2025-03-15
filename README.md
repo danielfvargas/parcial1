@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Parcial 1 - Programación con Tecnologías Web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Entregado por:** Daniel Felipe Vargas - 202216034
 
-## Available Scripts
+## Paso a paso para la ejecución del parcial
 
-In the project directory, you can run:
+### 1. Clonar el repositorio
+git clone https://github.com/danielfvargas/parcial1
 
-### `npm start`
+cd parcial1
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. Instalar dependencias
+npm install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Ejecutar la aplicación
+npm start
 
-### `npm test`
+Esto abrirá el proyecto en el navegador en http://localhost:3000/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Reporte de decisiones y proceso de desarrollo
 
-### `npm run build`
+__1. Estructura del proyecto__
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Se dividió en diferentes componentes funcionales (LoginPage.js, Home.js, Menu.js, Store.js).
+* Se utilizó react-router-dom para manejar la navegación entre las páginas.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+__2. Internacionalización:__
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Se implementó react-i18next para permitir cambiar el idioma dinámicamente.
+* Se organizaron archivos JSON en public/locales/ con traducciones en inglés, español y portugués.
 
-### `npm run eject`
+__3. Diseño y UX:__
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Se ubicaron los botones de cambio de idioma en diferentes páginas siguiendo la lógica de cada vista.
+* Se aseguraron diseños adaptables y estilos en CSS (LoginPage.css, Home.css, Menu.css, Store.css).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+__4. Funcionalidades Interactivas:__
+* __Login:__ Validación de contraseña con longitud de 5 a 8 caracteres.
+* __Menú y Tiendas:__ Carruseles de imágenes con botones de navegación (Los carruseles no funcionan porque no tuve tiempo de agregarle las imágenes).
+* __Selección de idioma:__ Persistencia del idioma seleccionado en todas las páginas.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Componentes y elementos pertenecientes al desarrollo de React
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Tecnologías clave
+* __React__
+* __React Router:__ Para la navegación entre páginas.
+* __React Hooks:__ Para manejo de esto e internacionalización.
+* __React-i18next:__ Para internacionalización en tres idiomas.
+* __CSS personalizado:__ Para los estilos específicos que fueron requeridos para cada una de las vistas.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Componentes del proyecto:
+* __LoginPage.js:__ Página de inicio de sesión con validaciones.
+* __Home.js:__ Página principal con opciones de navegación.
+* __Menu.js:__ Página del menú con carrusel de imágenes.
+* __Store.js:__ Página de tiendas con carrusel interactivo.
+* __i18n.js:__ Configuración de internacionalización con i18next.
+* __index.js:__ Punto de entrada de la aplicación.
