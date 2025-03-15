@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import './Store.css';
 
 function Store() {
+  const { t, i18n } = useTranslation();
   const [currentImage, setCurrentImage] = useState(0);
 
   const images = [
@@ -11,10 +13,10 @@ function Store() {
   ];
 
   const items = [
-    { img: 'imagen', title: 'STORE 1' }, 
-    { img: 'imagen', title: 'STORE 2' },
-    { img: 'imagen', title: 'STORE 3' },
-    { img: 'imagen', title: 'STORE 4' }
+    { img: 'imagen', title: t('store1') },
+    { img: 'imagen', title: t('store2') },
+    { img: 'imagen', title: t('store3') },
+    { img: 'imagen', title: t('store4') }
   ];
 
   const handleNext = () => {
@@ -28,13 +30,18 @@ function Store() {
   return (
     <div className="store-page-container">
       <div className="menu-header">
+        <div className="language-switcher" style={{ position: 'absolute', left: '10px' }}>
+          <button onClick={() => i18n.changeLanguage('en')}>EN</button>
+          <button onClick={() => i18n.changeLanguage('es')}>ES</button>
+          <button onClick={() => i18n.changeLanguage('pt')}>PT</button>
+        </div>
         <img src="https://pixsector.com/cache/a35c7d7b/avd437689ef3a02914ac1.png" alt="Store Logo Left" className="menu-logo" />
-        <h1>STORES</h1>
+        <h1>{t('stores')}</h1>
         <img src="https://pixsector.com/cache/a35c7d7b/avd437689ef3a02914ac1.png" alt="Store Logo Right" className="menu-logo" />
       </div>
       <div className="carousel-container">
         <button className="carousel-button" onClick={handlePrev}>&lt;</button>
-        <img src={images[currentImage]} alt="Store Item" className="carousel-image" />
+        <img src={images[currentImage]} alt={t('store_item')} className="carousel-image" />
         <button className="carousel-button" onClick={handleNext}>&gt;</button>
       </div>
 

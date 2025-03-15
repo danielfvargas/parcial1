@@ -1,0 +1,32 @@
+{
+  "title": "TOO GOOD TO GO",
+  "subtitle": "SOLUCIÓN PARA EL DESPERDICIO DE COMIDA",
+  "alt": {
+    "food_image": "Comida deliciosa",
+    "menu_icon": "Ícono de menú",
+    "stores_icon": "Ícono de tiendas",
+    "cart_icon": "Ícono de carrito"
+  },
+  "placeholder": {
+    "username": "Usuario",
+    "password": "Contraseña"
+  },
+  "forgot_password": "¿Olvidaste tu contraseña?",
+  "login": "Iniciar sesión",
+  "error": {
+    "password_length": "La contraseña debe tener entre 5 y 8 caracteres"
+  },
+  "menu": "Menú",
+  "stores": "Tiendas",
+  "cart": "Carrito",
+  "cheese": "Queso",
+  "bread": "Pan",
+  "ham": "Jamón",
+  "lettuce": "Lechuga",
+  "menu_item": "Elemento del menú",
+  "store1": "Tienda 1",
+  "store2": "Tienda 2",
+  "store3": "Tienda 3",
+  "store4": "Tienda 4",
+  "store_item": "Elemento de tienda"
+}

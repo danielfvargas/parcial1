@@ -1,0 +1,32 @@
+{
+  "title": "TOO GOOD TO GO",
+  "subtitle": "FOOD WASTING SOLUTION",
+  "alt": {
+    "food_image": "Delicious food",
+    "menu_icon": "Menu Icon",
+    "stores_icon": "Stores Icon",
+    "cart_icon": "Cart Icon"
+  },
+  "placeholder": {
+    "username": "Username",
+    "password": "Password"
+  },
+  "forgot_password": "Forgot Password?",
+  "login": "Login",
+  "error": {
+    "password_length": "The password must be between 5 and 8 characters"
+  },
+  "menu": "Menu",
+  "stores": "Stores",
+  "cart": "Cart",
+  "cheese": "Cheese",
+  "bread": "Bread",
+  "ham": "Ham",
+  "lettuce": "Lettuce",
+  "menu_item": "Menu Item",
+  "store1": "Store 1",
+  "store2": "Store 2",
+  "store3": "Store 3",
+  "store4": "Store 4",
+  "store_item": "Store Item"
+}
